@@ -1,0 +1,237 @@
+/*--------------------------------------- MENU --------------------------------- */
+* {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+    background-size: cover; 
+    padding: 0px;
+}
+
+/* first page background   */
+.background {
+    background-image: url('pizza-recipe-1.jpg');
+}
+
+/* navbar  */
+
+#intro {
+    float: left;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 7px;
+    margin-right: 2px;
+
+}
+
+
+.fire {
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    float:left;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    background-image: url('fire.png');
+    background-size: contain;
+}
+
+.cart {
+    margin-top: 5px;
+    margin-right: 4px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-image: url('cart.jpg');
+    background-size: contain;
+    float: right;
+}
+
+#navbarr {
+    background-color: rgb(184, 50, 2);
+}
+
+#navbarr ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 720px;
+}
+
+#navbarr ul li {
+    float: right;
+    list-style: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#navbarr ul li a {
+    display: block;
+    padding: 10px 15px;
+    margin-top: 2px;
+    color: black;
+    text-decoration: none;
+}
+
+#navbarr ul li a:hover, #navbarr ul li a:active{
+    background-color: rgb(221, 51, 9);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.n {
+    display: inline-block;
+}
+
+
+/* -------------------------------------------Specials--------------------------------- */
+
+.pg2_heading{
+    margin: 8px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.pg2_imgs{
+    display: inline-block;
+    margin:45px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding:15px;
+    background-size: contain;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    
+}
+.img1:hover{
+    transition: transform 3s ease;
+    transform: rotate(-359deg);
+}
+.img2:hover{
+    transform:scaleX(-1) translateY(0);
+    
+    transition: transform 2s ease;
+}
+.img3:hover{
+    transition: transform 3s ease;
+    transform: rotate(359deg);
+}
+.pg2_title{
+    display:inline-block;
+    margin:115px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding:10px;
+}
+.mar{
+    margin-left: 140px;
+}
+.mar1{
+    margin-left: 110px;
+}
+.para_pg2{
+    margin-top:15px;
+    text-align: center;
+    font-size: larger;
+}
+.author_pg2{
+    text-align: center;
+    font-size: larger;
+    font-weight: 1000px;
+}
+
+/* ------------------------------------Order----------------------------------------- */
+.pg3_heading{
+    margin: 8px;
+    font-size: 40px;
+    text-align: center;
+}
+.para_pg3{
+    margin-top:15px;
+    text-align: center;
+    font-size: larger;
+}
+.btn{
+    background-color: green;
+    color:white;
+    font-size: 15px;
+    width: 100px;
+    height:35px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin: 15px auto 0;
+    transition: background-color 0.7s ease;
+}
+.btn:hover{
+    background-color: rgb(250, 70, 5);
+}
+.divisions{
+    margin:20px auto;
+    background-color:rgb(250, 236, 236);
+    border-radius: 23px;
+    height: 80px;
+    padding:20px;
+    padding-top: 25px;
+    padding-left: 30px;
+    width:1000px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.heading_pg3{
+    padding-bottom: 15px;
+}
+
+/* -------------------------------------Contact Us-------------------------------- */
+.pg4_heading{
+    margin-top: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+.form{
+    background-color:rgb(250, 236, 236);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    margin-top: 0px;
+    width: 450px; 
+    padding: 20px;
+}
+.form label{
+    display:block;
+    font-size:25px;
+    font-weight: bolder;
+    margin-left: 12px;
+}
+.in{
+    width:95%;
+    margin:10px;
+}
+.submit{
+    background-color: green;
+    color:white;
+    font-size: 15px;
+    width: 100px;
+    height:35px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    transition: background-color 0.7s ease;
+}
+.sbm{
+    margin-left: 120px;
+}
+.submit:hover{
+    background-color: rgb(250, 70, 5);
+}
+.foot {
+    width: 100%;
+    height: 68px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(246, 85, 26);
+}
+
+.foot p {
+    margin-top: 45px; 
+}
