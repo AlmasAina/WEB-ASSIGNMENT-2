@@ -422,3 +422,17 @@ Style.css
 }
 
 Screen shots
+Menu
+![image](https://github.com/AlmasAina/WEB-ASSIGNMENT-2/assets/157973339/a2fc2475-aab5-492c-9748-0cea44cdff43)
+Special
+ ![image](https://github.com/AlmasAina/WEB-ASSIGNMENT-2/assets/157973339/7d9ca9e8-7849-4245-8e96-eee9fb29830e)
+
+Order
+ ![image](https://github.com/AlmasAina/WEB-ASSIGNMENT-2/assets/157973339/3acfc7b4-f82c-411c-8252-00b17223663c)
+
+Contact
+ 
+![image](https://github.com/AlmasAina/WEB-ASSIGNMENT-2/assets/157973339/d4ec4b4a-6be9-4bd6-bfb5-28ce8f11816b)
+
+
+
